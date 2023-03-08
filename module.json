@@ -1,0 +1,32 @@
+{
+    "name": "shifter-class",
+    "title": "Shifter Class",
+    "description": "A module containing the exported Shifter Class compendium.",
+    "version": "1.0.0",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "molotgor",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "packs": [
+        {
+            "type": "Item",
+            "label": "Shifter Class",
+            "module": "shifter-class",
+            "path": "packs/euye-shifter-class-1678234825814.db",
+            "name": "euye-shifter-class-1678234825814",
+            "system": "pf2e"
+        }
+    ],
+    "manifest": "",
+    "download": ""
+}
