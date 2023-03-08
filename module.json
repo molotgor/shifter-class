@@ -2,9 +2,9 @@
     "name": "shifter-class",
     "title": "Shifter Class",
     "description": "A module containing the exported Shifter Class compendium.",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "library": "false",
-    "manifestPlusVersion": "1.0.0",
+    "manifestPlusVersion": "0.1.0",
     "compatibility": {
         "minimum": 10,
         "verified": 10,
