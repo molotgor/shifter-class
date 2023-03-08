@@ -27,6 +27,6 @@
             "system": "pf2e"
         }
     ],
-    "manifest": "https://github.com/molotgor/shifter-class/blob/main/module.json",
+    "manifest": "https://raw.githubusercontent.com/molotgor/shifter-class/main/module.json",
     "download": "https://github.com/molotgor/shifter-class/archive/refs/heads/main.zip"
 }
