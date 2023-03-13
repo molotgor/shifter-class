@@ -1,40 +1,48 @@
 {
-    "name": "shifter-class",
-    "title": "Shifter Class",
-    "description": "A module containing the exported Shifter Class compendium.",
-    "version": "0.4.2",
-    "library": "false",
-    "manifestPlusVersion": "1.2.0",
-    "compatibility": {
-        "minimum": 10,
-        "verified": 10,
-        "maximum": 11
+  "title": "Shifter Class",
+  "description": "A module containing the exported Shifter Class compendium.",
+  "version": "0.5.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "molotgor",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "type": "Item",
+      "label": "Shifter Class",
+      "path": "packs/shifter-class.db",
+      "name": "shifter-class",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
     },
-    "authors": [
-        {
-            "name": "molotgor",
-            "email": "",
-            "url": ""
-        }
-    ],
-    "packs": [
-        {
-            "type": "Item",
-            "label": "Shifter Class",
-            "module": "shifter-class",
-            "path": "packs/shifter-class.db",
-            "name": "shifter-class",
-            "system": "pf2e"
-        },
-        {
-            "type": "Item",
-            "label": "Shifter Shifts",
-            "module": "shifter-class",
-            "path": "packs/shifter-shifts.db",
-            "name": "shifter-shifts",
-            "system": "pf2e"
-        }
-    ],
-    "manifest": "https://raw.githubusercontent.com/molotgor/shifter-class/main/module.json",
-    "download": "https://github.com/molotgor/shifter-class/archive/refs/heads/main.zip"
+    {
+      "type": "Item",
+      "label": "Shifter Shifts",
+      "path": "packs/shifter-shifts.db",
+      "name": "shifter-shifts",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Forms",
+      "path": "packs/shifter-forms.db",
+      "name": "shifter-forms",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/molotgor/shifter-class/main/module.json",
+  "download": "https://github.com/molotgor/shifter-class/archive/refs/heads/main.zip",
+  "id": "shifter-class"
 }
