@@ -1,11 +1,24 @@
 {
   "title": "Shifter Class",
   "description": "A module containing the exported Shifter Class compendium.",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
     "maximum": "11"
+  },
+  "flags": {
+    "shifter-class": {
+      "pf2e-homebrew": {
+        "weaponTraits": {
+          "shifter-form-attack": "Shifter Form Attack",
+          "shift-attack": "Shift Attack"
+        },
+        "featTraits": {
+          "shifter": "Shifter"
+        }
+      }
+    }
   },
   "authors": [
     {
