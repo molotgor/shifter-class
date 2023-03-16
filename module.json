@@ -1,7 +1,7 @@
 {
   "title": "Shifter Class",
   "description": "A module containing the exported Shifter Class compendium.",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
