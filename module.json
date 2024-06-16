@@ -1,11 +1,10 @@
 {
   "title": "Shifter Class",
   "description": "A module containing the exported Shifter Class compendium.",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "flags": {
     "shifter-class": {
@@ -45,114 +44,31 @@
   ],
   "packFolders": [
     {
-      "name": "Shifter Class",
-      "sorting": "m",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "packs": [
-        "shifter-class",
-        "shifter-featsfeatures",
-        "shifter-archetype",
-        "shifter-shifts",
-        "shifter-shifter-forms",
-        "shifter-spells",
-        "shifter-actions",
-        "shifter-shifts-effects",
-        "shifter-shifter-forms-effects",
-        "shifter-effects"
-      ],
-      "folders": []
+      "name": "Brian W. Lane Books",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Shifter Class",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "shifter"
+          ],
+          "folders": []
+        }
+      ]
     }
   ],
   "packs": [
     {
       "type": "Item",
-      "label": "Actions",
-      "path": "packs/shifter-actions.db",
-      "name": "shifter-actions",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Archetypes",
-      "path": "packs/shifter-archetype.db",
-      "name": "shifter-archetype",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Class",
-      "path": "packs/shifter-class.db",
-      "name": "shifter-class",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Effects",
-      "path": "packs/shifter-effects.db",
-      "name": "shifter-effects",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Feats/Features",
-      "path": "packs/shifter-featsfeatures.db",
-      "name": "shifter-featsfeatures",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Shifter Forms Effects",
-      "path": "packs/shifter-shifter-forms-effects.db",
-      "name": "shifter-shifter-forms-effects",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Shifter Forms",
-      "path": "packs/shifter-shifter-forms.db",
-      "name": "shifter-shifter-forms",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Shifts Effects",
-      "path": "packs/shifter-shifts-effects.db",
-      "name": "shifter-shifts-effects",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Shifts",
-      "path": "packs/shifter-shifts.db",
-      "name": "shifter-shifts",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Spells",
-      "path": "packs/shifter-spells.db",
-      "name": "shifter-spells",
+      "label": "Shifter",
+      "path": "packs/shifter",
+      "name": "shifter",
       "system": "pf2e",
       "private": false,
       "flags": {}
